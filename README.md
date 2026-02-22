@@ -1,102 +1,135 @@
 Procurement Compliance Performance Analysis
-Overview
 
-This dashboard analyzes procurement compliance, supplier performance, negotiated savings, and spending patterns across categories from January 2022 to February 2026.
+A comprehensive procurement analytics project built in Tableau to evaluate compliance performance, supplier effectiveness, and cost savings trends. This project covers KPI monitoring, supplier benchmarking, spend analysis, and time-based savings performance.
 
-The objective of this analysis is to evaluate how effectively procurement policies are being followed, measure cost savings achieved through negotiation, and identify opportunities to improve compliance, supplier allocation, and cost control.
+📊 Project Overview
 
-Business Objectives
+Dataset: Procurement transactions (January 2022 – February 2026)
+Tool: Tableau Public
+Analysis Focus: Compliance rate, negotiated savings, supplier performance, category spend distribution, and monthly trend analysis
 
-This analysis answers the following key business questions:
+🧩 Key Questions & Insights
+1️⃣ What is the overall procurement performance?
 
-What is the overall procurement compliance rate?
-
-How much cost savings is achieved through negotiated pricing?
-
-Which suppliers deliver the highest savings?
-
-Which item categories drive the most spend?
-
-How consistent are savings across months?
-
-Where are potential compliance or cost leakage risks?
-
-Key Performance Indicators (KPIs)
+KPIs Identified:
 
 Total Spend: 49,304,823
 
 Total Negotiated Spend: 45,373,696
 
-Average Percentage Savings: 7.97%
+Average Savings: 7.97%
 
 Total Transactions: 777
 
 Compliance Rate: 82.24%
 
-Dashboard Components
+Insight: Compliance is strong but below optimal threshold (90%+). Opportunity exists to reduce off-contract or non-compliant transactions.
 
-KPI Summary Panel
-Displays overall spend, negotiated spend, average savings, total transactions, and compliance rate.
+2️⃣ Which categories drive the highest spend?
 
-Spend by Category
-Shows distribution of procurement spend across major categories including MRO, Office Supplies, Electronics, Raw Materials, and Packaging.
+Analysis: Spend by Category (MRO, Office Supplies, Electronics, Raw Materials, Packaging)
 
-Supplier by Savings (%)
-Compares negotiated savings performance across key suppliers to identify high-performing vendors.
+Insight:
 
-Savings by Item Category (%)
-Highlights which categories generate the highest percentage savings.
+MRO and Office Supplies are the highest spend categories.
 
-Compliance Contribution by Supplier
-Visualizes how compliance performance is distributed among suppliers.
+These categories also generate the highest negotiated savings percentages, indicating effective cost management in key spend areas.
 
-Monthly Savings Trend
-Tracks savings percentage trends over time to identify volatility, peak performance periods, and potential breakdowns in procurement discipline.
+3️⃣ Which suppliers deliver the highest savings?
 
-Key Insights
+Analysis: Supplier Savings Comparison
 
-Overall compliance stands at 82.24%, indicating strong but improvable adherence to procurement policies.
+Top Performers:
 
-MRO and Office Supplies represent the highest spend categories and also generate the highest savings percentages, showing effective negotiation in high-impact areas.
+Delta Logistics (~22%)
 
-Supplier savings performance ranges between approximately 18% and 22%, revealing performance differences that can guide supplier allocation strategy.
+Epsilon Group (~22%)
 
-Monthly savings trends show volatility, including significant peaks and sharp declines, suggesting inconsistencies in negotiation enforcement or off-contract purchases.
+Insight:
+Savings performance varies between suppliers (18%–22%), presenting an opportunity to reallocate spend toward higher-performing vendors.
 
-Compliance contribution is concentrated among a few key suppliers, creating potential supplier dependency risk.
+4️⃣ How is compliance distributed across suppliers?
 
-Strategic Recommendations
+Analysis: Compliance Percentage Contribution by Supplier
 
-Increase compliance rate toward 90–95% through stronger PO enforcement and approval controls.
+Insight:
+Compliance performance is concentrated among a few suppliers, creating potential supplier dependency risk.
 
-Reallocate more spend to high-performing suppliers with stronger negotiated savings.
+5️⃣ How stable are savings over time?
 
-Conduct cost benchmarking and renegotiation in lower-performing categories such as Raw Materials and Electronics.
+Analysis: Monthly Savings Trend
 
-Investigate periods of low monthly savings to identify process breakdowns or maverick spend.
+Insight:
+Savings show volatility with noticeable peaks and sharp declines. A significant drop in savings percentage indicates potential maverick spend or inconsistent negotiation enforcement.
 
-Reduce supplier concentration risk by diversifying approved vendor options.
+6️⃣ Which categories generate the highest percentage savings?
 
-Tools & Methodology
+Analysis: % Savings by Item Category
 
-Tool Used: Tableau Public
+Insight:
 
-Data Period: January 2022 – February 2026
+MRO and Office Supplies lead in savings performance.
 
-Metrics Calculated:
+Raw Materials and Electronics show comparatively lower savings rates, indicating potential renegotiation opportunities.
 
-Compliance Rate
+🛠️ Technical Implementation
 
-Percentage Savings
+KPI Calculations:
 
-Aggregated Category Spend
+Compliance Rate = (Compliant Transactions / Total Transactions) × 100
 
-Supplier Performance Comparison
+Savings % = ((Total Price – Negotiated Price) / Total Price) × 100
 
-Monthly Savings Trend Analysis
+Data Aggregation:
 
-Calculated fields were used to derive savings percentages and compliance ratios, while category and supplier-level aggregations were applied to support performance benchmarking.
+Category-level spend aggregation
 
-Conclusion
+Supplier-level savings benchmarking
 
-This dashboard provides a structured view of procurement efficiency, compliance performance, and cost optimization opportunities. It enables procurement managers and decision-makers to monitor policy adherence, evaluate supplier effectiveness, and identify areas for strategic cost improvement.
+Monthly trend analysis using date hierarchy
+
+Visualization Techniques:
+
+KPI summary cards
+
+Horizontal bar charts for spend and savings
+
+Pie chart for compliance contribution
+
+Line chart for monthly savings trends
+
+Interactive filters for Year, Supplier, and Item Category
+
+📁 Files Included
+
+procurement_dashboard.twbx – Tableau packaged workbook
+
+dataset.csv – Procurement transaction dataset
+
+calculated_fields.docx – KPI formula documentation
+
+readme.md – Project documentation
+
+📈 Business Impact
+
+This dashboard enables procurement managers and stakeholders to:
+
+Monitor compliance performance
+
+Identify cost leakage risks
+
+Benchmark supplier effectiveness
+
+Detect monthly savings volatility
+
+Optimize spend allocation strategies
+
+🔗 Connect With Me
+
+https://rotimiayomide99.github.io/rotimiayomide.github.io/
+
+www.linkedin.com/in/ayomide-rotimi-1ba9261bb
+
+Rotimiayomide99@yahoo.com
+
+GitHub: https://github.com/Rotimiayomide99
